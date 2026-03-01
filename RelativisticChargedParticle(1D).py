@@ -1,7 +1,14 @@
 import numpy as np
 import matplotlib.pyplot as plt
+print("This program plots the motion graphs of a relativistic charged particle in an electric field constrained to move in one dimension.")
+print("================================================================")
+print("Assumptions: ")
+print("1. The particle is constrained to move in one dimension.")
+print("2. The electric field is uniform and constant.")
+print("3. The particle's mass and charge are constant.")
+print("4. The simulation assumes that the particle is in vaccuum and only the force due to the electric field is acting on it.")
+print("================================================================")
 print("USE SI UNITS ONLY FOR ALL INPUTS")
-
 #initial conditions and parameters
 v0 = float(input("Enter initial velocity of the body: "))
 if v0 >= 299792458 or v0 <= -299792458:
