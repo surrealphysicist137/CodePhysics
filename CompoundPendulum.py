@@ -54,10 +54,11 @@ plt.show()
 
 #Animation of the pendulum's motion using vpython
 from vpython import *   
-scene = canvas(title="Compound Pendulum Simulation", width=800, height=600) 
+scene = canvas(title="Compound Pendulum Simulation", width=8000, height=6000) 
 rod = cylinder(pos=vector(0, 0, 0), axis=vector(length, 0, 0), radius=R, color=color.blue)
 bob = sphere(pos=vector(length + r, 0, 0), radius=r, color=color.green)
 for i in range(steps):
     rate(100)
     rod.axis = vector(length * np.sin(x[i]), -length * np.cos(x[i]), 0)
     bob.pos = vector((length + r) * np.sin(x[i]), -(length + r) * np.cos(x[i]), 0)
+
