@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 print("This program simulates the motion of a pendulum.")
 print("=================================================================")
 print("Assumptions: ")
-print("1. The pendulum is a rigid rod constrained to raotate about a pivot with a spherical mass at the end.")
+print("1. The pendulum is a rigid rod constrained to rotate about a pivot with a spherical mass at the end.")
 print("2. The mass of the rod and the bob is distributed uniformly.")
 print("3. The motion is planar.")
 print("4. The system is subject to a uniform gravitational field.")
